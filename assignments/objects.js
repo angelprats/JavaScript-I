@@ -31,7 +31,7 @@ const user2 = {
   email: 'kdiben1@tinypic.com',
   gender: 'M',
   speak: function() {
-    'Hello My name is, Kennan';
+    return 'Hello My name is, Kennan';
   },
 };
 
@@ -49,7 +49,7 @@ const user4 = {
   gender: 'M',
 };
 
-const user5 = {
+const antonietta = {
   id: 005,
   name: 'Antonietta',
   email: 'adaine5@samsung.com',
@@ -71,7 +71,7 @@ console.log(user3.email);
 // Gannie's name
 console.log(user4.name);
 // Antonietta's Gender
-console.log(user5.gender);
+console.log(antonietta.gender);
 
 // ==== Challenge 3: Object Methods ====
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
